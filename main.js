@@ -28,8 +28,8 @@ if(results.length>0){
     noseY=results[0].pose.nose.y;
     console.log(noseX,noseY);
     leftWristX=results[0].pose.leftWrist.x;
-    rightWristX=results[0].pose.leftWrist.x;
+    rightWristX=results[0].pose.rightWrist.x;
     console.log(rightWristX,leftWristX);
-    difference=floor(leftWristX-rightWristX)
+    difference=floor(leftWristX-rightWristX);
 }
 }
