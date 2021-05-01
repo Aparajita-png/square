@@ -15,7 +15,7 @@ function draw(){
 background("#800080");
 fill ("#e75480");
 stroke("#0000FF");
-document.getElementById("square_side").innerHTML="width and heigth of the square="+difference+"px";
+document.getElementById("square_sides").innerHTML="width and heigth of the square="+difference+"px";
 square(noseX,noseY,difference);
 }
 function modelLoaded(){
